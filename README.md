@@ -3,7 +3,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
 - [Deploy and Configure Infrastructure](#deploy-and-configure-infrastructure)
-  - [Analyze resource utilization and consumption](#deploy-and-configure-infrastructure)
+  - [Analyze resource utilization and consumption](#analyze-resource-utilization-and-consumption)
   - [Create and configure storage accounts](#create-and-configure-storage-accounts)
   - [Create and configure a Virtual Machine (VM) for Windows and Linux](#create-and-configure-VM-Windows-and-Linux)
   - [Automate deployment of Virtual Machines (VMs)](#automate-deployment-of-virtual-machines)
@@ -89,7 +89,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * report on spend
 * utilize Log Search query functions
 * view alerts in Log Analytics
-### Create and configure storage accounts
+### [Create and configure storage accounts](../AZ-300/create-and-configure-storage-accounts)
 * configure network access to the storage account
 * create and configure storage account
 * generate shared access signature
