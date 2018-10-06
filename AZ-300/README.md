@@ -2,7 +2,7 @@
 The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below is a Table of Contents that has links to all different parts of this Exam. Everything on the [official site for the AZ-300 exam](https://www.microsoft.com/en-us/learning/exam-AZ-300.aspx) is found here verbatim. The detailed breakdown of the individual components are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
-- [Deploy and Configure Infrastructure (25-30 %)](#deploy-and-configure-infrastructure-25-30)
+- [Deploy and Configure Infrastructure (25-30%)](#deploy-and-configure-infrastructure-25-30)
   - [Analyze resource utilization and consumption](#analyze-resource-utilization-and-consumption)
   - [Create and configure storage accounts](#create-and-configure-storage-accounts)
   - [Create and configure a Virtual Machine (VM) for Windows and Linux](#create-and-configure-a-virtual-machine-vm-for-windows-and-linux)
@@ -11,25 +11,25 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
   - [Implement and manage virtual networking](#implement-and-manage-virtual-networking)
   - [Manage Azure Active Directory (AD)](#manage-azure-active-directory-ad)
   - [Implement and manage hybrid identities](#implement-and-manage-hybrid-identities)
-- [Implement Workloads and Security (20-25 %)](#implement-workloads-and-security-20-25)
+- [Implement Workloads and Security (20-25%)](#implement-workloads-and-security-20-25)
   - [Migrate servers to Azure](#migrate-servers-to-azure)
   - [Configure serverless computing](#configure-serverless-computing)
   - [Implement application load balancing](#implement-application-load-balancing)
   - [Integrate on-premises network with Azure virtual network](#integrate-on-premises-network-with-azure-virtual-network)
   - [Manage role-based access control (RBAC)](#manage-role-based-access-control-rbac)
   - [Implement Multi-Factor Authentication (MFA)](#implement-multi-factor-authentication-mfa)
-- [Architect Cloud Technology Solutions (5-10 %)](#architect-cloud-technology-solutions-5-10)
+- [Architect Cloud Technology Solutions (5-10%)](#architect-cloud-technology-solutions-5-10)
   - [Select an appropriate compute solution](#select-an-appropriate-compute-solution)
   - [Select an appropriate integration solution](#select-an-appropriate-integration-solution)
   - [Select an appropriate storage solution](#select-an-appropriate-storage-solution)
-- [Create and Deploy Apps (5-10 %)](#create-and-deploy-apps-5-10)
+- [Create and Deploy Apps (5-10%)](#create-and-deploy-apps-5-10)
   - [Create web applications by using PaaS](#create-web-applications-by-using-paas)
   - [Create app or service that runs on Service Fabric](#create-app-or-service-that-runs-on-service-fabric)
   - [Design and develop applications that run in containers](#design-and-develop-applications-that-run-in-containers)
-- [Implement Authentication and Secure Data (5-10 %)](#implement-authentication-and-secure-data-5-10)
+- [Implement Authentication and Secure Data (5-10%)](#implement-authentication-and-secure-data-5-10)
   - [Implement authentication](#implement-authentication)
   - [Implement secure data solutions](#implement-secure-data-solutions)
-- [Develop for the Cloud (20-25 %)](#develop-for-the-cloud-20-25)
+- [Develop for the Cloud (20-25%)](#develop-for-the-cloud-20-25)
   - [Develop long-running tasks](#develop-long-running-tasks)
   - [Configure a message-based integration architecture](#configure-a-message-based-integration-architecture)
   - [Develop for asynchronous processing](#develop-for-asynchronous-processing)
@@ -37,7 +37,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
   - [Implement distributed transactions](#implement-distributed-transactions)
   - [Develop advanced cloud workloads](#develop-advanced-cloud-workloads)
 
-## Deploy and Configure Infrastructure (25-30 %)
+## Deploy and Configure Infrastructure (25-30%)
 ### Analyze resource utilization and consumption
 * configure diagnostic settings on resources
 * create baseline for resources
@@ -89,7 +89,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
 * manage Azure AD Connect
 * manage password sync and writeback
 
-## Implement Workloads and Security (20-25 %)
+## Implement Workloads and Security (20-25%)
 ### Migrate servers to Azure
 * migrate by using Azure Site Recovery (ASR)
 * migrate using P2V
@@ -136,7 +136,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
 * configure access to Azure resources by assigning roles
 * configure management access to Azure
 
-## Architect Cloud Technology Solutions (5-10 %)
+## Architect Cloud Technology Solutions (5-10%)
 ### Select an appropriate compute solution
 * leverage appropriate design patterns
 * select appropriate network connectivity options
@@ -152,7 +152,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
 * evaluate structure of data storage
 * provide for data archiving, retention, and compliance
 
-## Create and Deploy Apps (5-10 %)
+## Create and Deploy Apps (5-10%)
 ### Create web applications by using PaaS
 * create an Azure app service web app by using Azure CLI, PowerShell, and other tools
 * create documentation for the API by using open source and other tools
@@ -171,7 +171,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
 * implement container instances by using Azure Container Service (ACS/AKS), Azure Service Fabric, and other tools
 * manage container settings by using code
 
-## Implement Authentication and Secure Data (5-10 %)
+## Implement Authentication and Secure Data (5-10%)
 ### Implement authentication
 * implement authentication by using certificates, forms-based authentication, tokens, Windows-integrated authentication
 * implement multi-factor authentication by using Azure AD options
@@ -181,7 +181,7 @@ The study guide to Exams *AZ-300: Microsoft Azure Architect Technologies*. Below
 * implement Azure Confidential Compute and SSL/TLS communications
 * manage cryptographic keys in the Azure Key Vault
 
-## Develop for the Cloud (20-25 %)
+## Develop for the Cloud (20-25%)
 ### Develop long-running tasks
 * implement large-scale, parallel, and high-performance apps by using batches
 * implement resilient apps by using queues
