@@ -3,7 +3,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
 - [Deploy and Configure Infrastructure](#deploy-and-configure-infrastructure)
-  - [Analyze resource utilization and consumption](#deploy-and-configure-infrastructure)
+  - [Analyze resource utilization and consumption](#analyze-resource-utilization-and-consumption)
   - [Create and configure storage accounts](#create-and-configure-storage-accounts)
   - [Create and configure a Virtual Machine (VM) for Windows and Linux](#create-and-configure-VM-Windows-and-Linux)
   - [Automate deployment of Virtual Machines (VMs)](#automate-deployment-of-virtual-machines)
@@ -76,7 +76,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
   - [Design a Networking Strategy](#design-an-Networking-Strategy)
   - [Design a Monitoring Strategy for Infrastructure](#design-a-Monitoring-Strategy-for-Infrastructure)
 
-## Deploy and Configure Infrastructure
+## [Deploy and Configure Infrastructure](./AZ-300/README.md#deploy-and-configure-infrastructure-25-30)
 ### Analyze resource utilization and consumption
 * configure diagnostic settings on resources
 * create baseline for resources
@@ -128,7 +128,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * manage Azure AD Connect
 * manage password sync and writeback
 
-## Implement Workloads and Security
+## [Implement Workloads and Security](./AZ-300/README.md#implement-workloads-and-security-20-25)
 ### Migrate servers to Azure
 * migrate by using Azure Site Recovery (ASR)
 * migrate using P2V
@@ -175,7 +175,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * configure access to Azure resources by assigning roles
 * configure management access to Azure
 
-## Architect Cloud Technology Solutions
+## [Architect Cloud Technology Solutions](./AZ-300/README.md#architect-cloud-technology-solutions-5-10)
 ### Select an appropriate compute solution
 * leverage appropriate design patterns
 * select appropriate network connectivity options
@@ -191,7 +191,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * evaluate structure of data storage
 * provide for data archiving, retention, and compliance
 
-## Create and Deploy Apps
+## [Create and Deploy Apps](./AZ-300/README.md#create-and-deploy-apps-5-10)
 ### Create web applications by using PaaS
 * create an Azure app service web app by using Azure CLI, PowerShell, and other tools
 * create documentation for the API by using open source and other tools
@@ -210,7 +210,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * implement container instances by using Azure Container Service (ACS/AKS), Azure Service Fabric, and other tools
 * manage container settings by using code
 
-## Implement Authentication and Secure Data
+## [Implement Authentication and Secure Data](./AZ-300/README.md#implement-authentication-and-secure-data-5-10)
 ### Implement authentication
 * implement authentication by using certificates, forms-based authentication, tokens, Windows-integrated authentication
 * implement multi-factor authentication by using Azure AD options
@@ -220,7 +220,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * implement Azure Confidential Compute and SSL/TLS communications
 * manage cryptographic keys in the Azure Key Vault
 
-## Develop for the Cloud
+## [Develop for the Cloud](./AZ-300/README.md#develop-for-the-cloud-20-25)
 ### Develop long-running tasks
 * implement large-scale, parallel, and high-performance apps by using batches
 * implement resilient apps by using queues

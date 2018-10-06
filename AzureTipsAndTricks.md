@@ -1,3 +1,0 @@
-- Functionality initially released through APIs will be represented in the portal within 180 days of initial release.
-- add "scm" to any website url to get to kudu....
-for example "https://lwoody@webapp200.scm.azurewebsites.net/WebApp200.git"
