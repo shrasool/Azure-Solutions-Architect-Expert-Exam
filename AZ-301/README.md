@@ -2,7 +2,7 @@
 The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a Table of Contents that has links to all different parts of this Exam. Everything on the [official site for the AZ-301 exam](https://www.microsoft.com/en-us/learning/exam-AZ-301.aspx) is found here verbatim. The detailed breakdown of the individual components are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
-- [Determine Workload Requirements (10-15 %)](#determine-workload-requirements-10-15)
+- [Determine Workload Requirements (10-15%)](#determine-workload-requirements-10-15)
   - [Gather Information and Requirements](#gather-information-and-requirements)
   - [Optimize Consumption Strategy](#optimize-consumption-strategy)
   - [Design an Auditing and Monitoring Strategy](#design-an-auditing-and-monitoring-strategy)
@@ -33,7 +33,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
   - [Design a Monitoring Strategy for Infrastructure](#design-a-monitoring-strategy-for-infrastructure)
 
 
-## Determine Workload Requirements (10-15 %)
+## Determine Workload Requirements (10-15%)
 ### Gather Information and Requirements
 * identify compliance requirements, identity and access management infrastructure, and service-oriented architectures (e.g., integration patterns, service design, service discoverability)
 * identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service Level Agreement), capacity planning and scalability, deploy-ability (e.g., repositories, failback, slot-based deployment), configurability, governance, maintainability (e.g. logging, debugging, troubleshooting, recovery, training), security (e.g. authentication, authorization, attacks), and sizing (e.g. support costs, optimization) requirements
