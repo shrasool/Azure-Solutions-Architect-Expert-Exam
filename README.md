@@ -24,7 +24,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
   - [Select an appropriate integration solution](#select-an-appropriate-integration-solution)
   - [Select an appropriate storage solution](#select-an-appropriate-storage-solution)
 
-- [Create and Deploy Apps)](#create-and-deploy-apps)
+- [Create and Deploy Apps](#create-and-deploy-apps)
   - [Create web applications by using PaaS](#create-web-applications-by-using-PaaS)
   - [Create app or service that runs on Service Fabric](#create-app-or-service-that-runs-on-Service-Fabric)
   - [Design and develop applications that run in containers](#design-and-develop-applications-that-run-in-containers)
