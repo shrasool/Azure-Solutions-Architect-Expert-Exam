@@ -2,29 +2,39 @@
 This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Technologies* and *AZ-301:	Microsoft Azure Architect Design*. Below is a Table of Contents that has links to all different parts of the Exam. Everything on the [official site for the exam](https://www.microsoft.com/en-us/learning/azure-solutions-architect.aspx#skillsandknowledge) is found here verbatim. The detailed breakdown of the individual components are in the respective exam directories and are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
-- [Design Compute Infrastructure (20-25%)](#design-compute-infrastructure-20-25)
-  - [Design solutions using virtual machines (VMs)](#design-solutions-using-virtual-machines-vms)
-  - [Design solutions for serverless computing](#design-solutions-for-serverless-computing)
-  - [Design microservices-based solutions](#design-microservices-based-solutions)
-  - [Design web applications](#design-web-applications)
-  - [Create compute-intensive applications](#create-compute-intensive-applications)
-- [Design Data Implementation (15-20%)](#design-data-implementation-15-20)
-  - [Design for Azure Storage solutions](#design-for-azure-storage-solutions)
-  - [Design for Azure Data Services](#design-for-azure-data-services)
-  - [Design for relational database storage](#design-for-relational-database-storage)
-  - [Design for NoSQL storage](#design-for-nosql-storage)
-  - [Design for CosmosDB storage](#design-for-cosmosdb-storage)
-- [Design Networking Implementation (15-20%)](#design-networking-implementation-15-20)
-  - [Design Azure virtual networks](#design-azure-virtual-networks)
-  - [Design external connectivity for Azure Virtual Networks](#design-external-connectivity-for-azure-virtual-networks)
-  - [Design security strategies](#design-security-strategies)
-  - [Design connectivity for hybrid applications](#design-connectivity-for-hybrid-applications)
-- [Design Security and Identity Solutions (20-25%)](#design-security-and-identity-solutions-20-25)
-  - [Design an Identity solution](#design-an-identity-solution)
-  - [Secure resources by using identity providers](#secure-resources-by-using-identity-providers)
-  - [Design a data security solution](#design-a-data-security-solution)
-  - [Design a mechanism of governance and policies for administering Azure resources](#design-a-mechanism-of-governance-and-policies-for-administering-azure-resources)
-  - [Manage security risks by using an appropriate security solution](#manage-security-risks-by-using-an-appropriate-security-solution)
+- [Analyze resource utilization and consumption](#analyze-resource-utilization-and-consumption)
+  - Analyze resource utilization and consumption
+  - Create and configure storage accounts
+  - Create and configure a Virtual Machine (VM) for Windows and Linux
+  - Automate deployment of Virtual Machines (VMs)
+  - Create connectivity between virtual networks
+  - create action groups
+  - monitor for unused resources
+  - monitor spend
+  - report on spend
+  - utilize Log Search query functions
+  - view alerts in Log Analytics
+- [Create and configure storage accounts](#create-and-configure-storage-accounts)
+  - configure network access to the storage account
+  - create and configure storage account
+  - generate shared access signature
+  - install and use Azure Storage Explorer
+  - manage access keys
+  - monitor activity log by using Log Analytics
+  - implement Azure storage replication
+
+- [Create and configure a Virtual Machine (VM) for Windows and Linux](#create-Windows-Linux-VM)
+  - configure high availability
+  - configure monitoring, networking, storage, and virtual machine size
+  - deploy and configure scale sets
+- [Automate deployment of Virtual Machines (VMs)](#automate-deployment-of-Virtual-Machines)
+  - modify Azure Resource Manager (ARM) template
+  - configure location of new VMs
+  - configure VHD template
+  - deploy from template
+  - save a deployment as an ARM template
+  - deploy Windows and Linux VMs
+
 - [Design Solutions by using Platform Services (10-15%)](#design-solutions-by-using-platform-services-10-15)
   - [Design for Artificial Intelligence Services](#design-for-artificial-intelligence-services)
   - [Design for IoT](#design-for-iot)
