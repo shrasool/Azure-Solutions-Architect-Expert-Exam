@@ -1,244 +1,162 @@
-# Microsoft Certified Azure Solutions Architect Expert <!-- omit in toc -->
-This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Technologies* and *AZ-301:	Microsoft Azure Architect Design*. Below is a Table of Contents that has links to all different parts of the Exam. Everything on the [official site for the exam](https://www.microsoft.com/en-us/learning/azure-solutions-architect.aspx#skillsandknowledge) is found here verbatim. The detailed breakdown of the individual components are in the respective exam directories and are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
+# Microsoft Azure Architect Design <!-- omit in toc -->
+The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a Table of Contents that has links to all different parts of this Exam. Everything on the [official site for the AZ-301 exam](https://www.microsoft.com/en-us/learning/exam-AZ-301.aspx) is found here verbatim. The detailed breakdown of the individual components are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
 
 ### TABLE OF CONTENTS <!-- omit in toc -->
-- [Design Compute Infrastructure (20-25%)](#design-compute-infrastructure-20-25)
-  - [Design solutions using virtual machines (VMs)](#design-solutions-using-virtual-machines-vms)
-  - [Design solutions for serverless computing](#design-solutions-for-serverless-computing)
-  - [Design microservices-based solutions](#design-microservices-based-solutions)
-  - [Design web applications](#design-web-applications)
-  - [Create compute-intensive applications](#create-compute-intensive-applications)
-- [Design Data Implementation (15-20%)](#design-data-implementation-15-20)
-  - [Design for Azure Storage solutions](#design-for-azure-storage-solutions)
-  - [Design for Azure Data Services](#design-for-azure-data-services)
-  - [Design for relational database storage](#design-for-relational-database-storage)
-  - [Design for NoSQL storage](#design-for-nosql-storage)
-  - [Design for CosmosDB storage](#design-for-cosmosdb-storage)
-- [Design Networking Implementation (15-20%)](#design-networking-implementation-15-20)
-  - [Design Azure virtual networks](#design-azure-virtual-networks)
-  - [Design external connectivity for Azure Virtual Networks](#design-external-connectivity-for-azure-virtual-networks)
-  - [Design security strategies](#design-security-strategies)
-  - [Design connectivity for hybrid applications](#design-connectivity-for-hybrid-applications)
-- [Design Security and Identity Solutions (20-25%)](#design-security-and-identity-solutions-20-25)
-  - [Design an Identity solution](#design-an-identity-solution)
-  - [Secure resources by using identity providers](#secure-resources-by-using-identity-providers)
-  - [Design a data security solution](#design-a-data-security-solution)
-  - [Design a mechanism of governance and policies for administering Azure resources](#design-a-mechanism-of-governance-and-policies-for-administering-azure-resources)
-  - [Manage security risks by using an appropriate security solution](#manage-security-risks-by-using-an-appropriate-security-solution)
-- [Design Solutions by using Platform Services (10-15%)](#design-solutions-by-using-platform-services-10-15)
-  - [Design for Artificial Intelligence Services](#design-for-artificial-intelligence-services)
-  - [Design for IoT](#design-for-iot)
-  - [Design messaging solution architectures](#design-messaging-solution-architectures)
-  - [Design for media service solutions](#design-for-media-service-solutions)
-- [Design for Operations (10-15%)](#design-for-operations-10-15)
-  - [Design an application monitoring and alerting strategy](#design-an-application-monitoring-and-alerting-strategy)
-  - [Design a platform monitoring and alerting strategy](#design-a-platform-monitoring-and-alerting-strategy)
-  - [Design an operations automation strategy](#design-an-operations-automation-strategy)
+- [Determine Workload Requirements (10-15%)](#determine-workload-requirements-10-15)
+  - [Gather Information and Requirements](#gather-information-and-requirements)
+  - [Optimize Consumption Strategy](#optimize-consumption-strategy)
+  - [Design an Auditing and Monitoring Strategy](#design-an-auditing-and-monitoring-strategy)
+- [Design for Identity and Security (20-25%)](#design-for-identity-and-security-20-25)
+  - [Design Identity Management](#design-identity-management)
+  - [Design Authentication](#design-authentication)
+  - [Design Authorization](#design-authorization)
+  - [Design for Risk Prevention for Identity](#design-for-risk-prevention-for-identity)
+  - [Design a Monitoring Strategy for Identity and Security](#design-a-monitoring-strategy-for-identity-and-security)
+- [Design a Data Platform Solution (15-20%)](#design-a-data-platform-solution-15-20)
+  - [Design a Data Management Strategy](#design-a-data-management-strategy)
+  - [Design a Data Protection Strategy](#design-a-data-protection-strategy)
+  - [Design and Document Data Flows](#design-and-document-data-flows)
+  - [Design a Monitoring Strategy for the Data Platform](#design-a-monitoring-strategy-for-the-data-platform)
+- [Design a Business Continuity Strategy (15-20%)](#design-a-business-continuity-strategy-15-20)
+  - [Design a Site Recovery Strategy](#design-a-site-recovery-strategy)
+  - [Design for High Availability](#design-for-high-availability)
+  - [Design a disaster recovery strategy for individual workloads](#design-a-disaster-recovery-strategy-for-individual-workloads)
+  - [Design a Data Archiving Strategy](#design-a-data-archiving-strategy)
+- [Design for Deployment, Migration, and Integration (10-15%)](#design-for-deployment-migration-and-integration-10-15)
+  - [Design Deployments](#design-deployments)
+  - [Design Migrations](#design-migrations)
+  - [Design an API Integration Strategy](#design-an-api-integration-strategy)
+- [Design an Infrastructure Strategy (15-20%)](#design-an-infrastructure-strategy-15-20)
+  - [Design a Storage Strategy](#design-a-storage-strategy)
+  - [Design a Compute Strategy](#design-a-compute-strategy)
+  - [Design a Networking Strategy](#design-a-networking-strategy)
+  - [Design a Monitoring Strategy for Infrastructure](#design-a-monitoring-strategy-for-infrastructure)
 
-## Design Compute Infrastructure (20-25%)
-### Design solutions using virtual machines (VMs)
-- Design VM deployments by leveraging [availability sets](AvailabilitySet.md), fault domains, and update domains in Azure
-- Use [Web App for Containers](WebAppForContainers.md)
-- Design [VM Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)
-- Design for compute-intensive tasks using [Azure Batch](Batch.md) and Azure Batch AI
-- Define a migration strategy from cloud services
-- Determine when to use reserved instances
-- Design for VMs in a DevTest Lab environment (including formulas, images, artifacts, claiming and un-claiming VMs)
-- Determine when to use Accelerated Networking
-- Recommend use of Azure Backup and Azure Site Recovery including support for Linux in Azure Backup and integrating Azure Backup in the VM creation process
-- Recommend when to use [availability zones](https://docs.microsoft.com/en-us/azure/availability-zones/az-overview)
-### Design solutions for serverless computing
-- Use [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) to implement event-driven actions
-- Design data storage solutions for serverless computing
-- Design for serverless computing using Azure Container Instances
-- Design application solutions by using Azure Logic Apps, Azure Functions, or both
-- Determine when to use API management service
-- Design event routing solutions using Azure Event Grid
-- Design solutions that integrate stream processing and bot messaging
-### Design microservices-based solutions 
-- Determine when a container-based solution is appropriate 
-- Determine when container-orchestration is appropriate 
-- Determine when Azure Service Fabric (ASF) is appropriate 
-- Determine when Azure Functions is appropriate 
-- Determine when to use API management service 
-- Determine when Web API is appropriate - Doesn't really exist any more as a standalone offering. Has been folded into Azure App Services -> Web Apps.
-- Determine which platform is appropriate for container orchestration 
-- Consider migrating existing assets versus cloud native deployment 
-- Design lifecycle management strategies
-### Design web applications
-- Design Azure App Service Web Apps
-- Design custom web API
-- Secure Web API
-- Design Web Apps for scalability and performance
-- Design for high availability using Azure Web Apps in multiple regions
-- Determine which App service plan to use
-- Design Web Apps for business continuity
-- Determine when to use Azure App Service Isolated
-- Design for API apps
-- Determine when to use API management service
-- Determine when to use Web Apps on Linux
-- Determine when to use a CDN
-- Determine when to use a cache, including Azure Redis cache
-### Create compute-intensive applications
-- Design high-performance computing (HPC) and other compute-intensive applications using Azure Services
-- Determine when to use Azure Batch design stateless components to accommodate scale
-- Design lifecycle strategy for Azure Batch
-- Design solution that implement low priority batching and job task counting
-## Design Data Implementation (15-20%)
-### Design for Azure Storage solutions
-Determine when to use:
-- Azure Blob Storage
-- Blob tiers (hot, cool, archive)
-- Azure Files
-- Disks
-- Azure Data Box
-- Azure Storage Service Encryption - Automatic. Can use KeyVault to store your own key rather than use MS keys.
-- Azure StorSimple
-### Design for Azure Data Services
-Determine when to use:
-- Azure Data Catalog
-- Azure Data Factory
-- Azure SQL Data Warehouse
-- Azure Data Lake Analytics
-- Azure Analysis Services
-- Azure HDInsight
-### Design for relational database storage
-- Determine when to use Azure SQL Database and SQL Server Stretch Database
-- Design for scalability and features
-- Determine when to use Azure Database for MySQL and Azure Database for PostgreSQL
-- Design for HA/DR, geo-replication
-- Design a backup and recovery strategy
-- Design optimization strategies for Azure SQL Data Warehouse columnar storage
-### Design for NoSQL storage
-Determine when to use:
-- Azure Redis Cache
-- Azure Table Storage
-- Azure Data Lake
-- Azure Search
-- Time Series Insights
-----------
-- Design pipelines for managing recurring jobs
-### Design for [CosmosDB](Cosmos.md) storage
-- Determine when to use MongoDB API, Azure Cosmos DB SQL API, Graph API, Azure Tables API
-- Design for cost, performance, data consistency, availability, and business continuity
-## Design Networking Implementation (15-20%)
-### Design Azure virtual networks
-- Design solutions that use Azure networking services:
-  - Design for load balancing using:
-    - [Azure Load Balancer](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview) 
-    - [Azure Traffic Manager](https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview) - DNS Load Balancer
-  - Define DNS, DHCP, and IP strategies 
-  - Determine when to use [Azure Application Gateway](https://docs.microsoft.com/en-us/azure/application-gateway/application-gateway-introduction) - Application Layer (OSI 7) router and firewall 
-  - Determine when to use [virtual network (VNet) service endpoints](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoints-overview) 
-  - Determine when to use multi-node application gateways, Traffic Manager and load balancers
-### Design external connectivity for Azure Virtual Networks
-- Determine when to use Azure VPN, Azure ExpressRoute and Virtual Network Peering architecture and design 
-- Determine when to use User Defined Routes (UDRs) 
-- Determine when to use VPN gateway site-to-site failover for ExpressRoute 
-- Determine when to use the Container Networking Interface (CNI) plugin 
-- Design solutions that use Global VNet Peering
-### Design security strategies
-- Determine when to use network virtual appliances 
-- Design a perimeter network (DMZ) 
-- Determine when to use a Web Application Firewall (WAF), Network Security Group (NSG), and virtual network service tunneling 
-- Organize resources by designing solutions that use service tags
-### Design connectivity for hybrid applications
-- Design connectivity to on-premises data from Azure applications using:
-  - [Azure Relay Service](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it)
-  - Azure Data Management Gateway for Data Factory
-  - Azure On-Premises Data Gateway, Hybrid Connections 
-  - Azure Web App’s virtual private network (VPN) capability 
-- Identify constraints for connectivity with VPN 
-- Identify options for joining VMs to domains
-## Design Security and Identity Solutions (20-25%)
-### Design an Identity solution
-- Design AD Connect synchronization 
-- Design federated identities using Active Directory Federation Services (AD FS) 
-- Design solutions for Multi-Factor Authentication (MFA) 
-- Design an architecture using Active Directory on-premises and Azure Active Directory (AAD) 
-- Determine when to use Azure AD Domain Services 
-- Design security for Mobile Apps using AAD
-### Secure resources by using identity providers
-- Design solutions that use external or consumer identity providers such as Microsoft account, Facebook, Google, and Yahoo 
-- Determine when to use Azure AD B2C and Azure AD B2B 
-- Design mobile apps using AAD B2C or AAD B2B
-### Design a data security solution
-- Design data security solutions for Azure services 
-- Determine when to use Azure Storage encryption, Azure Disk Encryption, Azure SQL Database security capabilities, and Azure Key Vault
-- Design for protecting secrets in ARM templates using Azure Key Vault 
-- Design for protecting application secrets using Azure Key Vault 
-- Design a solution for managing certificates using Azure Key Vault 
-- Design solutions that use Azure AD Managed Service Identity
-### Design a mechanism of governance and policies for administering Azure resources
-- Determine when to use Azure RBAC standard roles and custom roles 
-- Define an Azure RBAC strategy 
-- Determine when to use Azure resource policies 
-- Determine when to use Azure AD Privileged Identity Management 
-- Design solutions that use Azure AD Managed Service Identity 
-- Determine when to use HSM-backed keys
-### Manage security risks by using an appropriate security solution
-- Identify, assess, and mitigate security risks by using Azure Security Center, Operations Management Suite Security and Audit solutions, and other services 
-- Determine when to use Azure AD Identity Protection 
-- Determine when to use Advanced Threat Detection 
-- Determine an appropriate endpoint protection strategy
-## Design Solutions by using Platform Services (10-15%)
-### Design for Artificial Intelligence Services
-Determine when to use the appropriate Cognitive Services:
-- Azure Bot Service
-- Azure Machine Learning
-- and other categories that fall under cognitive AI
-### Design for IoT
-Determine when to use:
-- Azure Stream Analytics
-- Azure IoT Hubs
-- Azure Event Hubs
-- Real-time analytics
-- Azure Time Series Insights
-- Azure IoT Edge
-- Azure Notification Hubs
-- Event Grid
-- Other services that fall under IoT
-### Design messaging solution architectures
-- Design a messaging architecture 
-- Determine when to use 
-  - Azure Storage Queues 
-  - Azure Service Bus
-  - Azure Event Hubs
-  - Azure Event Grid 
-  - Azure Relay
-  - Azure Functions
-  - Azure Logic Apps
-- Design a push notification strategy for Mobile Apps
-- Design for performance and scale
-### Design for media service solutions
-- Define solutions using:
-  - Azure Media Services
-  - Video indexer
-  - Video API
-  - Computer vision API 
-  - Preview, and other media related services
-- Design solutions that use file-based encoding or Azure Media Analytics
-## Design for Operations (10-15%)
-### Design an application monitoring and alerting strategy
-- Determine the appropriate Microsoft products and services for monitoring applications on Azure 
-- Define solutions for analyzing logs and enabling alerts using Azure Log Analytics 
-- Define solutions for analyzing performance metrics and enabling alerts using Azure Monitor 
-- Define a solution for monitoring applications and enabling alerts using Application Insights
-### Design a platform monitoring and alerting strategy
-- Determine the appropriate Microsoft products and services for monitoring Azure platform solutions 
-- Define a monitoring solution using Azure Health, Azure Advisor, and Activity Log 
-- Define a monitoring solution for Azure Networks using Log Analytics and Network Watcher service 
-- Monitor security with Azure Security Center 
-- Design TCP connections
-### Design an operations automation strategy
-- Determine when to use: 
-  - [Azure Automation](https://docs.microsoft.com/en-us/azure/automation/automation-intro) - A configuration management tool that allows for [Run Books](https://en.wikipedia.org/wiki/Runbook), Inventory Tracking, Update Management, and Desired State monitoring.
-  - [Chef](https://en.wikipedia.org/wiki/Chef_(software)) - [In-Depth Overview](https://docs.chef.io/chef_overview.html) Uses cookbooks and recipes.
-  - Puppet - [Open Source Puppet](https://puppet.com/docs/puppet/5.5/architecture.html) uses catalogs with resources and desired states within them. There is a commerical company that produces Puppet Discovery for Inventory Management and Puppet Enterprise for configuration management.
-  - PowerShell - You can use just PowerShell or [PowerShell DSC](https://docs.microsoft.com/en-us/powershell/dsc/overview). Comparison of [Powershell vs. Powershell DSC](https://docs.microsoft.com/en-us/powershell/dsc/dscforengineers#i-have-powershell-why-do-i-need-desired-state-configuration).
-  - [Azure Automation (DSC)](https://docs.microsoft.com/en-us/azure/automation/automation-dsc-overview) 
-  - [Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/overview) - Can notify Azure Automation when a VM or DB is spun up, for example.
-  - [Azure Logic Apps](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview) - For more complex logic on 
-- Define a strategy for auto-scaling 
-- Define a strategy for enabling periodic processes and tasks 
-- Define an update management strategy
+
+## Determine Workload Requirements (10-15%)
+### Gather Information and Requirements
+* identify compliance requirements, identity and access management infrastructure, and service-oriented architectures (e.g., integration patterns, service design, service discoverability)
+* identify accessibility (e.g. Web Content Accessibility Guidelines), availability (e.g. Service Level Agreement), capacity planning and scalability, deploy-ability (e.g., repositories, failback, slot-based deployment), configurability, governance, maintainability (e.g. logging, debugging, troubleshooting, recovery, training), security (e.g. authentication, authorization, attacks), and sizing (e.g. support costs, optimization) requirements
+* recommend changes during project execution (ongoing)
+* evaluate products and services to align with solution
+* create testing scenarios
+### Optimize Consumption Strategy
+* optimize app service, compute, identity, network, and storage costs
+### Design an Auditing and Monitoring Strategy
+* define logical groupings (tags) for resources to be monitored
+* determine levels and storage locations for logs
+* plan for integration with monitoring tools
+* recommend appropriate monitoring tool(s) for a solution
+* specify mechanism for event routing and escalation
+* design auditing for compliance requirements
+* design auditing policies and traceability requirements
+
+## Design for Identity and Security (20-25%)
+### Design Identity Management
+* choose an identity management approach
+* design an identity delegation strategy, identity repository (including directory, application, systems, etc.)
+* design self-service identity management and user and persona provisioning
+* define personas and roles
+* recommend appropriate access control strategy (e.g., attribute-based, discretionary access, history-based, identity-based, mandatory, organization-based, role-based, rule-based, responsibility-based)
+### Design Authentication
+* choose an authentication approach
+* design a single-sign on approach
+* design for IPSec, logon, multi-factor, network access, and remote authentication
+### Design Authorization
+* choose an authorization approach
+* define access permissions and privileges
+* design secure delegated access (e.g., oAuth, OpenID, etc.)
+* recommend when and how to use API Keys
+### Design for Risk Prevention for Identity
+* design a risk assessment strategy (e.g., access reviews, RBAC policies, physical access)
+* evaluate agreements involving services or products from vendors and contractors
+* update solution design to address and mitigate changes to existing security policies, standards, guidelines and procedures
+### Design a Monitoring Strategy for Identity and Security
+* design for alert notifications
+* design an alert and metrics strategy
+* recommend authentication monitors
+
+## Design a Data Platform Solution (15-20%)
+### Design a Data Management Strategy
+* choose between managed and unmanaged data store
+* choose between relational and non-relational databases
+* design data auditing and caching strategies
+* identify data attributes (e.g., relevancy, structure, frequency, size, durability, etc.)
+* recommend Database Transaction Unit (DTU) sizing
+* design a data retention policy
+* design for data availability, consistency, and durability
+* design a data warehouse strategy
+### Design a Data Protection Strategy
+* recommend geographic data storage
+* design an encryption strategy for data at rest, for data in transmission, and for data in use
+* design a scalability strategy for data
+* design secure access to data
+* design a data loss prevention (DLP) policy
+### Design and Document Data Flows
+* identify data flow requirements
+* create a data flow diagram
+* design a data flow to meet business requirements
+* design a data import and export strategy
+### Design a Monitoring Strategy for the Data Platform
+* design for alert notifications
+* design an alert and metrics strategy
+
+## Design a Business Continuity Strategy (15-20%)
+### Design a Site Recovery Strategy
+* design a recovery solution
+* design a site recovery replication policy
+* design for site recovery capacity and for storage replication
+* design site failover and failback (planned/unplanned)
+* design the site recovery network
+* recommend recovery objectives (e.g., Azure, on-prem, hybrid, Recovery Time Objective (RTO), Recovery Level Objective (RLO), Recovery Point Objective (RPO))
+* identify resources that require site recovery
+* identify supported and unsupported workloads
+* recommend a geographical distribution strategy
+### Design for High Availability
+* design for application redundancy, autoscaling, data center and fault domain redundancy, and network redundancy
+* identify resources that require high availability
+* identify storage types for high availability
+### Design a disaster recovery strategy for individual workloads
+* design failover/failback scenarios
+* document recovery requirements
+* identify resources that require backup
+* recommend a geographic availability strategy
+### Design a Data Archiving Strategy
+* recommend storage types and methodology for data archiving
+* identify requirements for data archiving and business compliance requirements for data archiving
+* identify SLA(s) for data archiving
+
+## Design for Deployment, Migration, and Integration (10-15%)
+### Design Deployments
+* design a compute, container, data platform, messaging solution, storage, and web app and service deployment strategy
+### Design Migrations
+* recommend a migration strategy
+* design data import/export strategies during migration
+* determine the appropriate application migration, data transfer, and network connectivity method
+* determine migration scope, including redundant, related, trivial, and outdated data
+* determine application and data compatibility
+### Design an API Integration Strategy
+* design an API gateway strategy
+* determine policies for internal and external consumption of APIs
+* recommend a hosting structure for API management
+
+## Design an Infrastructure Strategy (15-20%)
+### Design a Storage Strategy
+* design a storage provisioning strategy
+* design storage access strategy
+* identify storage requirements
+* recommend a storage solution and storage management tools
+### Design a Compute Strategy
+* design compute provisioning and secure compute strategies
+* determine appropriate compute technologies (e.g., virtual machines, functions, service fabric, container instances, etc.)
+* design an Azure HPC environment
+* identify compute requirements
+* recommend management tools for compute
+### Design a Networking Strategy
+* design network provisioning and network security strategies
+* determine appropriate network connectivity technologies
+* identify networking requirements
+* recommend network management tools
+### Design a Monitoring Strategy for Infrastructure
+* design for alert notifications
+* design an alert and metrics strategy
