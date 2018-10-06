@@ -1,6 +1,12 @@
 # Microsoft Certified Azure Solutions Architect Expert <!-- omit in toc -->
 This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Technologies* and *AZ-301:	Microsoft Azure Architect Design*. Below is a Table of Contents that has links to all different parts of the Exam. Everything on the [official site for the exam](https://www.microsoft.com/en-us/learning/azure-solutions-architect.aspx#skillsandknowledge) is found here verbatim. The detailed breakdown of the individual components are in the respective exam directories and are presented in an outline style with links to documentation on each Azure resource in the exams. Enjoy!
 
+
+Inspired by a [similar repo for 70-535 exam](https://github.com/lwoodyiii/Azure-Exam-70-535) and [Pixel robots](https://pixelrobots.co.uk/2018/09/study-resources-for-the-az-300/) who have put up some addtional links that I am consulting for reference.
+
+
+Patches are welcome. Soon I will try to add more material for each section!
+---
 ### TABLE OF CONTENTS <!-- omit in toc -->
 - [Deploy and Configure Infrastructure](#deploy-and-configure-infrastructure)
   - [Analyze resource utilization and consumption](#analyze-resource-utilization-and-consumption)
