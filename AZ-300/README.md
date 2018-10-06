@@ -37,10 +37,10 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 
 ## Design Compute Infrastructure (20-25%)
 ### Design solutions using virtual machines (VMs)
-- Design VM deployments by leveraging [availability sets](AvailabilitySet.md), fault domains, and update domains in Azure
-- Use [Web App for Containers](WebAppForContainers.md)
+- Design VM deployments by leveraging [availability sets](../AvailabilitySet.md), fault domains, and update domains in Azure
+- Use [Web App for Containers](../WebAppForContainers.md)
 - Design [VM Scale Sets](https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)
-- Design for compute-intensive tasks using [Azure Batch](Batch.md) and Azure Batch AI
+- Design for compute-intensive tasks using [Azure Batch](../Batch.md) and Azure Batch AI
 - Define a migration strategy from cloud services
 - Determine when to use reserved instances
 - Design for VMs in a DevTest Lab environment (including formulas, images, artifacts, claiming and un-claiming VMs)
@@ -118,7 +118,7 @@ Determine when to use:
 - Time Series Insights
 ----------
 - Design pipelines for managing recurring jobs
-### Design for [CosmosDB](Cosmos.md) storage
+### Design for [CosmosDB](../Cosmos.md) storage
 - Determine when to use MongoDB API, Azure Cosmos DB SQL API, Graph API, Azure Tables API
 - Design for cost, performance, data consistency, availability, and business continuity
 ## Design Networking Implementation (15-20%)
