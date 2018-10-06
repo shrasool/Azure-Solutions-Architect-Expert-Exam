@@ -62,7 +62,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 - [Design a Business Continuity Strategy](#design-a-business-continuity-strategy)
   - [Design a Site Recovery Strategy](#design-a-Site-Recovery-Strategy)
   - [Design for High Availability](#design-for-High-Availability)
-  - [Design a disaster recovery strategy for individual workloads](#design-a-disaster-recovery-strategy for-individual-workloads)
+  - [Design a disaster recovery strategy for individual workloads](#design-a-disaster-recovery-strategy-for-individual-workloads)
   - [Design a Data Archiving Strategy](#design-a-Data-Archiving-Strategy)
 
 - [Design for Deployment, Migration, and Integration](#design-for-Deployment-Migration-and-Integration)
@@ -330,7 +330,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * identify resources that require high availability
 * identify storage types for high availability
 ### Design a disaster recovery strategy for individual workloads
-* design failover/failback scenario(s)
+* design failover/failback scenarios
 * document recovery requirements
 * identify resources that require backup
 * recommend a geographic availability strategy
