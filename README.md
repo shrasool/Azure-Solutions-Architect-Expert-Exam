@@ -89,7 +89,7 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 * report on spend
 * utilize Log Search query functions
 * view alerts in Log Analytics
-### [Create and configure storage accounts](../AZ-300/README.md#create-and-configure-storage-accounts)
+### [Create and configure storage accounts](./AZ-300/README.md#create-and-configure-storage-accounts)
 * configure network access to the storage account
 * create and configure storage account
 * generate shared access signature
