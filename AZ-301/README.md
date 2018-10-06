@@ -6,27 +6,27 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
   - [Gather Information and Requirements](#gather-information-and-requirements)
   - [Optimize Consumption Strategy](#optimize-consumption-strategy)
   - [Design an Auditing and Monitoring Strategy](#design-an-auditing-and-monitoring-strategy)
-- [Design for Identity and Security (20-25 %)](#design-for-identity-and-security-20-25)
+- [Design for Identity and Security (20-25%)](#design-for-identity-and-security-20-25)
   - [Design Identity Management](#design-identity-management)
   - [Design Authentication](#design-authentication)
   - [Design Authorization](#design-authorization)
   - [Design for Risk Prevention for Identity](#design-for-risk-prevention-for-identity)
   - [Design a Monitoring Strategy for Identity and Security](#design-a-monitoring-strategy-for-identity-and-security)
-- [Design a Data Platform Solution (15-20 %)](#design-a-data-platform-solution-15-20)
+- [Design a Data Platform Solution (15-20%)](#design-a-data-platform-solution-15-20)
   - [Design a Data Management Strategy](#design-a-data-management-strategy)
   - [Design a Data Protection Strategy](#design-a-data-protection-strategy)
   - [Design and Document Data Flows](#design-and-document-data-flows)
   - [Design a Monitoring Strategy for the Data Platform](#design-a-monitoring-strategy-for-the-data-platform)
-- [Design a Business Continuity Strategy (15-20 %)](#design-a-business-continuity-strategy-15-20)
+- [Design a Business Continuity Strategy (15-20%)](#design-a-business-continuity-strategy-15-20)
   - [Design a Site Recovery Strategy](#design-a-site-recovery-strategy)
   - [Design for High Availability](#design-for-high-availability)
   - [Design a disaster recovery strategy for individual workloads](#design-a-disaster-recovery-strategy-for-individual-workloads)
   - [Design a Data Archiving Strategy](#design-a-data-archiving-strategy)
-- [Design for Deployment, Migration, and Integration (10-15 %)](#design-for-deployment-migration-and-integration-10-15)
+- [Design for Deployment, Migration, and Integration (10-15%)](#design-for-deployment-migration-and-integration-10-15)
   - [Design Deployments](#design-deployments)
   - [Design Migrations](#design-migrations)
   - [Design an API Integration Strategy](#design-an-api-integration-strategy)
-- [Design an Infrastructure Strategy (15-20 %)](#design-an-infrastructure-strategy-15-20)
+- [Design an Infrastructure Strategy (15-20%)](#design-an-infrastructure-strategy-15-20)
   - [Design a Storage Strategy](#design-a-storage-strategy)
   - [Design a Compute Strategy](#design-a-compute-strategy)
   - [Design a Networking Strategy](#design-a-networking-strategy)
@@ -51,7 +51,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
 * design auditing for compliance requirements
 * design auditing policies and traceability requirements
 
-## Design for Identity and Security (20-25 %)
+## Design for Identity and Security (20-25%)
 ### Design Identity Management
 * choose an identity management approach
 * design an identity delegation strategy, identity repository (including directory, application, systems, etc.)
@@ -76,7 +76,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
 * design an alert and metrics strategy
 * recommend authentication monitors
 
-## Design a Data Platform Solution (15-20 %)
+## Design a Data Platform Solution (15-20%)
 ### Design a Data Management Strategy
 * choose between managed and unmanaged data store
 * choose between relational and non-relational databases
@@ -101,7 +101,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
 * design for alert notifications
 * design an alert and metrics strategy
 
-## Design a Business Continuity Strategy (15-20 %)
+## Design a Business Continuity Strategy (15-20%)
 ### Design a Site Recovery Strategy
 * design a recovery solution
 * design a site recovery replication policy
@@ -126,7 +126,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
 * identify requirements for data archiving and business compliance requirements for data archiving
 * identify SLA(s) for data archiving
 
-## Design for Deployment, Migration, and Integration (10-15 %)
+## Design for Deployment, Migration, and Integration (10-15%)
 ### Design Deployments
 * design a compute, container, data platform, messaging solution, storage, and web app and service deployment strategy
 ### Design Migrations
@@ -140,7 +140,7 @@ The study guide to Exams *AZ-301: Microsoft Azure Architect Design*. Below is a 
 * determine policies for internal and external consumption of APIs
 * recommend a hosting structure for API management
 
-## Design an Infrastructure Strategy (15-20 %)
+## Design an Infrastructure Strategy (15-20%)
 ### Design a Storage Strategy
 * design a storage provisioning strategy
 * design storage access strategy
