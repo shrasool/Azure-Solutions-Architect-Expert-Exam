@@ -4,7 +4,9 @@ This project is my study guide to Exams *AZ-300: Microsoft Azure Architect Techn
 
 Inspired by a [similar repo for 70-535 exam](https://github.com/lwoodyiii/Azure-Exam-70-535) and [Pixel robots](https://pixelrobots.co.uk/2018/09/study-resources-for-the-az-300/) who have put up some additional links that I am consulting for reference.
 
-STATUS: First section of AZ-300!
+STATUS: Links updated till first section of AZ-300!
+
+For preparing AZ-300 and AZ-301, along with other new exams for role-based Azure certifications, you can follow the [e-learning provided directly by Mircosoft](https://cloudsociety.learning.microsoft.com/courses) and look for AZ* courses.
 Patches are welcome. Soon I will try to add more material for each section!
 ---
 ### TABLE OF CONTENTS <!-- omit in toc -->
