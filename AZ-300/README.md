@@ -72,7 +72,7 @@ ADDITIONAL: [Linux monitoring](https://docs.microsoft.com/en-us/azure/virtual-ma
 * [configure location of new VMs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-templates-resources#location)
 * [configure VHD template](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
 * [deploy from template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy)
-* [save a deployment as an ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-export-template)
+* [save a deployment as an ARM template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resource-groups-portal#export-resource-groups-to-templates) 
 * [deploy Windows and Linux VMs](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-automate-vm-deployment);
 ADDITIONAL: [Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/powershell-samples);
 [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/cli-samples);
