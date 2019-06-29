@@ -102,7 +102,7 @@ ADDITIONAL: [Planning](https://docs.microsoft.com/en-us/azure/virtual-network/vi
 
 ## Implement Workloads and Security (20-25%)
 ### Migrate servers to Azure
-* migrate by using Azure Site Recovery (ASR)
+* [migrate by using Azure Site Recovery (ASR)](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
 * migrate using P2V
 * configure storage
 * create a backup vault
